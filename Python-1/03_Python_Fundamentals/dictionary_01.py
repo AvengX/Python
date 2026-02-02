@@ -1,0 +1,19 @@
+info={
+    "Name":"Ayush",
+    "Cgpa":7.5,
+    "Subjects":["Maths","Science"],
+    3.14:"PI"
+}
+print(type(info))
+print(info["Name"])
+print(info[3.14])
+info["Cgpa"]=9.0
+print(info["Cgpa"])
+print(info.keys())
+print(info.values())
+print(info.items())
+print(info.get("Cgpa"))
+info.update({
+    "City":"JSR"
+})
+print(info.items())

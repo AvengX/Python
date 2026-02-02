@@ -1,0 +1,13 @@
+a=10
+a+=a
+print(a)
+a-=a
+print(a)
+a*=a
+print(a)
+a/=10
+print(a)
+a**=a
+print(a)
+a=a
+print(a)

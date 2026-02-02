@@ -1,0 +1,9 @@
+nums=[1,2,56,78,884,21]
+nums.append(34)
+print(nums)
+nums.insert(2,47)
+print(nums)
+nums.reverse()
+print(nums)
+nums.sort()
+print(nums)
